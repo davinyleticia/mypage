@@ -6,7 +6,7 @@ import StyledComponentsRegistry from "./lib/registry";
 
 export const metadata: Metadata = {
   title: "Daviny Letícia",
-  description: "My Site Profissonal",
+  description: "My professional website",
 };
 
 export default function RootLayout({
