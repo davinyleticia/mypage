@@ -62,6 +62,15 @@ const Nav = styled.div`
     overflow: hidden;
     position: relative;
     margin: 1rem 0;
+    // Animation
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-250px * 7));
+      }
+    }
   }
 `;
 
