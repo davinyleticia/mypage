@@ -6,7 +6,7 @@ import Image from "next/image";
 import { experience } from "./data";
 
 const Conteiner = styled.div`
-
+  width: 100%;
 `;
 
 const Content = styled.div`
@@ -44,7 +44,6 @@ const Nav = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 90%;
   @media (max-width: 1265px) {
     display: flex;
     flex-direction: column;
