@@ -16,12 +16,15 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+html {
+  font-family: Zilla Slab, Arial, Helvetica, sans-serif;
+  background: #fcfcf7;
+}
+
+h2{
+  font-size: 2rem;
 }
