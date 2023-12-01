@@ -57,14 +57,22 @@ const Nav = styled.div`
 
   @media (max-width: 1265px) {
     align-items: start;
-    height: 100px;
+    margin: 1rem 0;
+    width: 40rem;
+  }
+`;
+
+const Mobile = styled.div`
+  @media (max-width: 1265px) {
+    align-items: start;
+    height: auto;
     margin: auto;
+    width: auto;
     overflow-y: hidden;
-    position: relative;
     margin: 1rem 0;
 
   }
-`;
+`
 
 const Link = styled.button`
   margin: 1rem 0;
@@ -115,6 +123,7 @@ const WorkExperience: FC = () => {
       <Title>
         02. <span>Experiência</span>
       </Title>
+      <Mobile>
       <Nav>
         {experience.map((exp, index) => (
           <Link key={index} onClick={() => setItem(index)}>
@@ -122,7 +131,7 @@ const WorkExperience: FC = () => {
             <p>{exp.company}</p>
           </Link>
         ))}
-      </Nav>
+      </Nav></Mobile>
       <Content>
         <Img
           src={experience[item].img}
