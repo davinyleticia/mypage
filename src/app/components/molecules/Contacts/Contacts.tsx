@@ -39,6 +39,9 @@ const Link = styled.a`
   p{
     padding: 0 .5rem;
   }
+  @media (max-width: 1265px) {
+    margin: 0;
+  }
 `;
 
 

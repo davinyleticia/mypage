@@ -28,6 +28,11 @@ const Content = styled.div`
       font-weight: bolder;
     }
   }
+  @media (max-width: 1265px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 `;
 
 const Nav = styled.div`
@@ -37,6 +42,11 @@ const Nav = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 1265px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 `;
 const Link = styled.button`
   margin: 1rem 0;
