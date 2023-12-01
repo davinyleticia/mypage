@@ -20,7 +20,8 @@ const Nav = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  z-index:100;
+  z-index: 300;
+  position: relative;
   @media (max-width: 1265px) {
     display: flex;
     flex-direction: column;
@@ -37,14 +38,13 @@ const Link = styled.a`
   :hover {
     text-decoration: underline; /* Fix the typo here (line instead of underline) */
   }
-  p{
-    padding: 0 .5rem;
+  p {
+    padding: 0 0.5rem;
   }
   @media (max-width: 1265px) {
     margin: 0;
   }
 `;
-
 
 const Contacts: React.FC = () => {
   return (
