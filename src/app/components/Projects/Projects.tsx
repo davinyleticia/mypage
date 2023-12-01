@@ -82,6 +82,7 @@ const Title = styled.h2`
   margin-bottom: 3rem;
 `;
 
+
 const Projects: React.FC = () => {
   return (
     <Conteiner id="Projetos">
