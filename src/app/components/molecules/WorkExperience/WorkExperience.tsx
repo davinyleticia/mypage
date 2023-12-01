@@ -13,7 +13,7 @@ const Content = styled.div`
   display: flex;
   flex-direction: row;
   section {
-    max-width: 60rem;
+    min-width: 60rem;
     padding: 0 4rem;
     p {
       margin: 1rem 0;
