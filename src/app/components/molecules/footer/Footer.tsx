@@ -4,8 +4,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Conteiner = styled.div`
-  margin-top: 3rem @media (max-width: 1265px) {
+  margin-top: 3rem 
+  @media (max-width: 1265px) {
     width: 100%;
+    margin: 0;
   }
 `;
 

@@ -27,6 +27,7 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 1rem 0;
   }
 `;
 
@@ -43,8 +44,9 @@ const ProjectCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin: 5rem 0;
     width: 100%;
+    height: auto;
   }
 `;
 

@@ -5,19 +5,21 @@ import styled from "styled-components";
 import ParticlesContainer from "../../atom/ParticlesContainer";
 const Conteiner = styled.div`
   height: 30rem;
+
 `;
 
 const Content = styled.div`
 padding: 4rem 0;
 width: 31rem;
+  @media (max-width: 1265px) {
+    width: 70%;
+  }
 
   p{
     font-size: 1.5rem;
     padding: 1rem 0;
   },
-  @media (max-width: 1265px) {
-    width: 100%;
-  }
+
 `;
 
 const Name = styled.div`
