@@ -11,7 +11,9 @@ import Projects from "./components/molecules/Projects/Projects";
 import Talks from "./components/molecules/talks/Talks";
 
 const Container = styled.div`
-  width: 60rem;
+  width: 100%;
+ display: flex;
+ flex-direction: column;
 `;
 
 export default function Home() {

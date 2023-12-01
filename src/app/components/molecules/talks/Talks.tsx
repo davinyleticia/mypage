@@ -5,9 +5,6 @@ import styled from "styled-components";
 
 const Conteiner = styled.div`
   margin-top: 5rem;
-  @media (max-width: 1265px) {
-    width: 100%;
-  }
 `;
 
 const Content = styled.div`
@@ -33,6 +30,7 @@ const Content = styled.div`
   @media (max-width: 1265px) {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 `;
 

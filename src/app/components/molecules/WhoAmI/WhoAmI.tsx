@@ -4,9 +4,8 @@ import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
 
-const Conteiner = styled.div`  @media (max-width: 1265px) {
-  width: 100%;
-}`;
+const Conteiner = styled.div`  
+`;
 
 const Content = styled.div`
   display: flex;
