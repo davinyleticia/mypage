@@ -115,7 +115,7 @@ const WorkExperience: FC = () => {
         {experience.map((exp, index) => (
           <Link key={index} onClick={() => setItem(index)}>
             <MdOutlineArrowRight />
-            <p>{exp.name}</p>
+            <p>{exp.company}</p>
           </Link>
         ))}
       </Nav>

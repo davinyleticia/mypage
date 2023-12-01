@@ -1,4 +1,5 @@
 export interface ExperienceData {
+    company: string;
     name: string;
     span: string;
     description: string;
@@ -8,12 +9,14 @@ export interface ExperienceData {
 
 
 export const experience : ExperienceData[] = [{
+    company: "Reprograma",
     name: "Reprograma | Professora",
     span: "São Paulo - Brasil | mai de 2023 - o momento",
     description: "A Reprograma é uma ONG que tem como missão empoderar mulheres, ministrando um curso intensivo.",
     worker:"Administrei cursos de front-end, workshops, e cursos POO em Python",
     img:"/reprograma-logo.0bc8e5eb.png"
 },{
+    company: "Proz",
     name: "Proz | Front-end",
     span: "São Paulo - Brasil | jul de 2023 - ago 2023",
     description: "Empresa do ramo de educação técnicos",
@@ -21,6 +24,7 @@ export const experience : ExperienceData[] = [{
     img:"/logotipo_proz.svg"
 },
 {
+    company: "DIO",
     name: "DIO.me | Front-end e Django",
     span: "Online - Brasil | abri de 2021 - abri 2023",
     description: "Empresa do ramo de educação e bootcamps",
@@ -28,6 +32,7 @@ export const experience : ExperienceData[] = [{
     img:"/logo-dio.svg"
 },
 {
+    company: "Codivas",
     name: "Codivas | Front-end",
     span: "Freelance - Brasil | fev de 2021 - mar 2021",
     description: "Coletivo de Mulheres voltado para empoderamento e empregabilidade",
@@ -35,6 +40,7 @@ export const experience : ExperienceData[] = [{
     img:"/coletivo_codivas_logo.jpeg"
 },
 {
+    company: "RHS",
     name: "RHS | Back-end PHP",
     span: "Online - Brasil | ago de 2020 - jan 2021",
     description: "Administração pública, defesa e seguridade social, voltado para licitações",
@@ -42,6 +48,7 @@ export const experience : ExperienceData[] = [{
     img:"/rhs_licitaes_logo.jpeg"
 },
 {
+    company: "Braz Cubas",
     name: "Braz Cubas | Técnica de Laboratório",
     span: "Mogi das Cruzes - Brasil | Fev de 2015 - ago 2020",
     description: "Universidade",
