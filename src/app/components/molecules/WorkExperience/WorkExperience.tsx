@@ -6,7 +6,7 @@ import Image from "next/image";
 import { experience } from "./data";
 
 const Conteiner = styled.div`
-  width: 100%;
+  width: 53%;
 `;
 
 const Content = styled.div`
