@@ -58,6 +58,8 @@ const Link = styled.button`
 const Img = styled(Image)`
   border: solid 1px #ece4e4;
   padding: 1rem;
+  width: 300px;
+  height: 300px;
 `;
 
 const Title = styled.h2`
@@ -71,48 +73,36 @@ const Title = styled.h2`
   margin-bottom: 2rem;
 `;
 const WorkExperience: React.FC = () => {
-
   const [item, setItem] = useState(0);
 
-  
-  console.log(item)
+  console.log(item);
   return (
     <Conteiner>
       <Title>
         02. <span>Experiência Profissional</span>
       </Title>
       <Nav>
-        <Link onClick={()=> setItem(5)}>
+        <Link onClick={() => setItem(5)}>
           <MdOutlineArrowRight />
           <p>Braz Cubas</p>
         </Link>
-        <Link
-       onClick={()=> setItem(4)}
-        >
+        <Link onClick={() => setItem(4)}>
           <MdOutlineArrowRight />
           <p>RHS</p>
         </Link>
-        <Link
-        onClick={()=> setItem(3)}
-        >
+        <Link onClick={() => setItem(3)}>
           <MdOutlineArrowRight />
           <p>Codivas</p>
         </Link>
-        <Link
-          onClick={()=> setItem(2)}
-        >
+        <Link onClick={() => setItem(2)}>
           <MdOutlineArrowRight />
           <p>DIO</p>
         </Link>
-        <Link
-        onClick={()=> setItem(1)}
-        >
+        <Link onClick={() => setItem(1)}>
           <MdOutlineArrowRight />
           <p>Proz</p>
         </Link>
-        <Link onClick={()=> setItem(0)}
-          
-        >
+        <Link onClick={() => setItem(0)}>
           <MdOutlineArrowRight />
           <p>Reprograma</p>
         </Link>
@@ -124,14 +114,13 @@ const WorkExperience: React.FC = () => {
           height={300}
           alt="Picture of the author"
         />
-        
-          <section>
-            <h3>{experience[item].name}</h3>
-            <p>{experience[item].span}</p>
-            <p>{experience[item].description}</p>
-            <p>{experience[item].worker}</p>
-          </section>
-        
+
+        <section>
+          <h3>{experience[item].name}</h3>
+          <p>{experience[item].span}</p>
+          <p>{experience[item].description}</p>
+          <p>{experience[item].worker}</p>
+        </section>
       </Content>
     </Conteiner>
   );
