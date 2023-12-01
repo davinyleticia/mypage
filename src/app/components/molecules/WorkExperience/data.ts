@@ -22,14 +22,14 @@ export const experience = [{
     name: "Codivas | Front-end",
     span: "Freelance - Brasil | fev de 2021 - mar 2021",
     description: "Coletivo de Mulheres voltado para empoderamento e empregabilidade",
-    worker:"tuei no desenvolvimento Front-end freelance no projeto da empresa Bio Doctor, a minha parte ficou recarregada de fazer rebranding visual do site, utilizando CSS, HTML e JS.",
+    worker:"Atuei no desenvolvimento Front-end freelance no projeto da empresa Bio Doctor, a minha parte ficou recarregada de fazer rebranding visual do site, utilizando CSS, HTML e JS.",
     img:"/coletivo_codivas_logo.jpeg"
 },
 {
     name: "RHS | Back-end PHP",
     span: "Online - Brasil | ago de 2020 - jan 2021",
     description: "Administração pública, defesa e seguridade social, voltado para licitações",
-    worker:"manutenção scripts PHP (laravel) para automações processos internos",
+    worker:"Manutenção scripts PHP (laravel) para automações processos internos",
     img:"/rhs_licitaes_logo.jpeg"
 },
 {
