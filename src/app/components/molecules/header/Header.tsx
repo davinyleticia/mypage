@@ -15,6 +15,7 @@ width: 31rem;
     font-size: 1.5rem;
     padding: 1rem 0;
   },
+  
 `;
 
 const Name = styled.div`

@@ -21,6 +21,10 @@ const Content = styled.div`
       margin: 1rem 0;
     }
   }
+  @media (max-width: 1265px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Title = styled.h2`

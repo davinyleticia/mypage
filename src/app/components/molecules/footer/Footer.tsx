@@ -37,6 +37,13 @@ const BugText = styled.div`
     background: #5b4e5f;
     margin: 0;
   }
+  @media (max-width: 1265px) {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 0;
+  }
 `;
 
 const Note = styled.div`

@@ -20,6 +20,10 @@ const Nav = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 1265px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 const Link = styled.a`
   margin: 2rem 0;

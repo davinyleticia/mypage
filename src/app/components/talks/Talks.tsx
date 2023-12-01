@@ -27,6 +27,10 @@ const Content = styled.div`
       }
     }
   }
+  @media (max-width: 1265px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Title = styled.h2`

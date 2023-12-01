@@ -35,11 +35,21 @@ const ProjectCard = styled.div`
     font-size: 1rem;
     font-weight: bolder;
   }
+  @media (max-width: 1265px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 90%;
+  }
 `;
 
 const Img = styled(Image)`
   border-radius: 5%;
   border: solid 1px #dcc9c9;
+  @media (max-width: 1265px) {
+  
+    margin: 0;
+  };
 `;
 
 const Description = styled.div`
@@ -51,6 +61,10 @@ const Description = styled.div`
         text-decoration: underline; /* Fix the typo here (line instead of underline) */
       }
     }
+    @media (max-width: 1265px) {
+    width: 30rem;
+    margin: 0;
+  }
 `;
 
 const CardText = styled.div`
