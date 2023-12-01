@@ -16,7 +16,7 @@ export const experience = [{
     span: "Online - Brasil | abri de 2021 - abri 2023",
     description: "Empresa do ramo de educação e bootcamps",
     worker:"Responsável pela evolução do produto, plataforma e experiências digitais atuando no time de Product, Technology and Data. Atuando diariamente com as linguagens Python, AWS, React, TypeScript, Redux, Hooks.",
-    img:"/logotipo_proz.svg"
+    img:"/logo-dio.svg"
 },
 {
     name: "Codivas | Front-end",
