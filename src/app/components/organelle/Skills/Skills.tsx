@@ -84,7 +84,7 @@ const Skills: React.FC = () => {
             <li>Shell Script</li>
             <li>Wordpress (CMS e desenvolvimento web)</li>
             <li>Experiência do usuário (UX)</li>
-            <li> MVVM (arquitetura)</li>
+            <li> MVC, MVT (arquitetura)</li>
             <li>Programação orientada a objetos (paradigma)</li>
             <li>Código Limpo e SOLID (melhores práticas)</li>
           </ul>
