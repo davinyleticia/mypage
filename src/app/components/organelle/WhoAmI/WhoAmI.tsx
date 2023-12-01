@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Image from "next/image";
 
 const Conteiner = styled.div`  
+z-index: 100;
 `;
 
 const Content = styled.div`
