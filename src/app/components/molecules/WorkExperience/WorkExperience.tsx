@@ -6,8 +6,11 @@ import Image from "next/image";
 import { experience } from "./data";
 
 const Conteiner = styled.div`
-  width:80rem
-`;
+  width:80rem;
+  @media (max-width: 1265px) {
+      width: 100%;
+  }
+  `
 
 const Content = styled.div`
   display: flex;
@@ -15,6 +18,9 @@ const Content = styled.div`
   section {
     min-width: 60rem;
     padding: 0 4rem;
+    @media (max-width: 1265px) {
+      min-width: 100%;
+  }
     p {
       margin: 1rem 0;
       font-size: 1.2rem;

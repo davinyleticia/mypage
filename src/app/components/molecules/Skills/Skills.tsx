@@ -5,6 +5,9 @@ import styled from "styled-components";
 
 const Conteiner = styled.div`
   margin-top: 5rem;
+  @media (max-width: 1265px) {
+     margin: 5rem 0 0 0;
+  }
 `;
 
 const Content = styled.div`

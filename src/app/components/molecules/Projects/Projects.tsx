@@ -7,6 +7,10 @@ import { projects } from "./data";
 
 const Conteiner = styled.div`
   margin-top: 5rem;
+  @media (max-width: 1265px) {
+    margin: 0;
+    width: 100%;
+  }
 `;
 
 const Content = styled.div`
@@ -22,7 +26,7 @@ const Content = styled.div`
   @media (max-width: 1265px) {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
 `;
 
@@ -31,15 +35,16 @@ const ProjectCard = styled.div`
   flex-direction: row;
   height: 10rem;
   margin-bottom: 5rem;
-  h2{
+  h2 {
     font-size: 1rem;
     font-weight: bolder;
   }
   @media (max-width: 1265px) {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 5rem;
-    width: 90%;
+    width: 100%;
   }
 `;
 
@@ -47,22 +52,27 @@ const Img = styled(Image)`
   border-radius: 5%;
   border: solid 1px #dcc9c9;
   @media (max-width: 1265px) {
-  
     margin: 0;
-  };
+  }
 `;
 
 const Description = styled.div`
   padding: 0 1rem;
   width: 50rem;
-    a {
-        text-decoration: none;
-      &:hover {
-        text-decoration: underline; /* Fix the typo here (line instead of underline) */
-      }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline; /* Fix the typo here (line instead of underline) */
     }
+  }
+  h2{
     @media (max-width: 1265px) {
-    width: 30rem;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+  @media (max-width: 1265px) {
+    width: 100%;
     margin: 0;
   }
 `;
@@ -82,7 +92,6 @@ const Title = styled.h2`
   margin-bottom: 3rem;
 `;
 
-
 const Projects: React.FC = () => {
   return (
     <Conteiner id="Projetos">
@@ -100,13 +109,14 @@ const Projects: React.FC = () => {
                 alt="Picture of the author"
               />
               <Description>
-                <h2><a href={elem.link}>{elem.name}</a></h2>
+                <h2>
+                  <a href={elem.link}>{elem.name}</a>
+                </h2>
                 <CardText
-                dangerouslySetInnerHTML={{
+                  dangerouslySetInnerHTML={{
                     __html: elem.description || "Sem descrição",
-                  }}>
-                
-                </CardText>
+                  }}
+                ></CardText>
               </Description>
             </ProjectCard>
           </section>

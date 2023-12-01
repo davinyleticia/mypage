@@ -11,9 +11,9 @@ import Projects from "./components/molecules/Projects/Projects";
 import Talks from "./components/molecules/talks/Talks";
 
 const Container = styled.div`
-  width: 100%;
- display: flex;
- flex-direction: column;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 `;
 
 export default function Home() {
@@ -22,11 +22,11 @@ export default function Home() {
       <WhoAmI />
       <Contacts />
       <CurriculumButton />
-      <WorkExperience/>
-      <Skills/>
-      <Education/>
-      <Talks/>
-      <Projects/>
+      <WorkExperience />
+      <Skills />
+      <Education />
+      <Talks />
+      <Projects />
     </Container>
   );
 }
