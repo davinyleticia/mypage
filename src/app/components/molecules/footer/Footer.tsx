@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
         <Note>
           <p>
             Feito com amor por Daviny Letícia 2023 @{" "}
-            <a href="https://github.com/davinyleticia">Github</a>
+            <a href="https://github.com/davinyleticia/mypage">Github</a>
           </p>
         </Note>
       </Content>
