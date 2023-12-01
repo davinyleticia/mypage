@@ -68,9 +68,9 @@ const WhoAmI: React.FC = () => {
             <span>Prazer em conhecê-lo!</span> Sou engenheira de software e
             educadora, apaixonada por experiências sociais e colaborativas, tem
             como hobby o violino, escrever na minha página pessoal sobre as
-            minhas descoberta.
+            minhas descobertas.
           </p>
-          <p>Sou especializada em tecnologias web, atuando com as principais lingaugem </p>
+          <p>Sou especializada em tecnologias web, atuando com as principais lingaugems </p>
           <p>Full Stack Developer • JavaScript • React • Next • TypeScript • Python • ORM • NodeJS</p>
         </section>
       </Content>
