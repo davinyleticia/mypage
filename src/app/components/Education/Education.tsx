@@ -52,7 +52,7 @@ const Education: React.FC = () => {
           </ul>
           <ul>
             <h3>Liceu Braz Cubas</h3>
-            <li>Técnico em Eletrônica</li>
+            <li>Técnica em Eletrônica</li>
             <li>Mogi das Cruzes - SP | 2013 - 2014</li>
           </ul>
         </section>

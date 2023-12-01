@@ -91,7 +91,7 @@ const Contacts: React.FC = () => {
           <p>Notações</p>
         </Link>
         <Link
-          href="mailto:maksim@koshelev.ru?subject=Hello!&body=Hi!"
+          href="mailto:daviny@vidal.dev.br?subject=Olá!&body=Oi!"
           target="
     _top"
         >

@@ -8,6 +8,12 @@ margin-top: 3rem`;
 
 const Content = styled.div`
   background: #5b4e5f;
+  a{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 1px 2px;
+  }
 `;
 
 const BugText = styled.div`
@@ -57,12 +63,6 @@ const Note = styled.div`
     font-size: 1.4rem;
     line-height: 1.5;
   }
-  a{
-    text-decoration: none;
-    color: #000;
-    background: #fff;
-    padding: 1px 2px;
-  }
 `;
 
 const Footer: React.FC = () => {
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
           <h3>Sobre este site</h3>
           <div>
             <p>Construído com NextJS. </p>
-            <p>Se você encontrar um bug, registre um  issue. Obrigada! </p>
+            <p>Se você encontrar um bug, registre um  <a href="https://github.com/davinyleticia/mypage/issues">issue</a>. Obrigada! </p>
             <p>Este site não coleta nenhum dado pessoal.</p>
           </div>
         </BugText>

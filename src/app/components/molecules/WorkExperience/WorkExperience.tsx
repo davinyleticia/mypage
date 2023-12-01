@@ -1,9 +1,9 @@
-"use client";
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineArrowRight } from "react-icons/md";
 
 import styled from "styled-components";
 import Image from "next/image";
+import { experience } from "./data";
 
 const Conteiner = styled.div``;
 
@@ -23,12 +23,11 @@ const Content = styled.div`
         font-weight: bolder;
       }
     }
-    h3{
-    font-size: 20px;
-    font-weight: bolder;
+    h3 {
+      font-size: 20px;
+      font-weight: bolder;
+    }
   }
-  }
-  
 `;
 
 const Nav = styled.div`
@@ -39,7 +38,7 @@ const Nav = styled.div`
   align-items: center;
   justify-content: space-around;
 `;
-const Link = styled.a`
+const Link = styled.button`
   margin: 1rem 0;
   display: flex;
   text-align: center;
@@ -47,6 +46,7 @@ const Link = styled.a`
   color: #000;
   padding: 1rem;
   border-radius: 5%; /* Add the missing semicolon here */
+  cursor: pointer;
   :hover {
     text-decoration: underline; /* Fix the typo here (line instead of underline) */
   }
@@ -56,7 +56,8 @@ const Link = styled.a`
 `;
 
 const Img = styled(Image)`
-  border: solid 1px #000;
+  border: solid 1px #ece4e4;
+  padding: 1rem;
 `;
 
 const Title = styled.h2`
@@ -70,52 +71,47 @@ const Title = styled.h2`
   margin-bottom: 2rem;
 `;
 const WorkExperience: React.FC = () => {
+
+  const [item, setItem] = useState(0);
+
+  
+  console.log(item)
   return (
     <Conteiner>
       <Title>
         02. <span>Experiência Profissional</span>
       </Title>
       <Nav>
-        <Link href="https://t.me/mr_koshelev" target="_blank">
+        <Link onClick={()=> setItem(5)}>
           <MdOutlineArrowRight />
           <p>Braz Cubas</p>
         </Link>
         <Link
-          href="mailto:maksim@koshelev.ru?subject=Hello!&body=Hi!"
-          target="
-    _top"
+       onClick={()=> setItem(4)}
         >
           <MdOutlineArrowRight />
           <p>RHS</p>
         </Link>
         <Link
-          href="mailto:maksim@koshelev.ru?subject=Hello!&body=Hi!"
-          target="
-    _top"
+        onClick={()=> setItem(3)}
         >
           <MdOutlineArrowRight />
           <p>Codivas</p>
         </Link>
         <Link
-          href="mailto:maksim@koshelev.ru?subject=Hello!&body=Hi!"
-          target="
-    _top"
+          onClick={()=> setItem(2)}
         >
           <MdOutlineArrowRight />
           <p>DIO</p>
         </Link>
         <Link
-          href="mailto:maksim@koshelev.ru?subject=Hello!&body=Hi!"
-          target="
-    _top"
+        onClick={()=> setItem(1)}
         >
           <MdOutlineArrowRight />
           <p>Proz</p>
         </Link>
-        <Link
-          href="mailto:maksim@koshelev.ru?subject=Hello!&body=Hi!"
-          target="
-    _top"
+        <Link onClick={()=> setItem(0)}
+          
         >
           <MdOutlineArrowRight />
           <p>Reprograma</p>
@@ -123,22 +119,19 @@ const WorkExperience: React.FC = () => {
       </Nav>
       <Content>
         <Img
-          src="/reprograma-logo.0bc8e5eb.png"
+          src={experience[item].img}
           width={300}
           height={300}
           alt="Picture of the author"
         />
-        <section>
-          <h3>Reprograma | Professora</h3>
-          <p>São Paulo - Brasil | mai de 2023 - o momento</p>
-          <p>
-            A Reprograma é uma ONG que tem como missão empoderar mulheres,
-            ministrando um curso intensivo.
-          </p>
-          <p>
-            Administrei cursos de front-end, workshops, e cursos POO em python
-          </p>
-        </section>
+        
+          <section>
+            <h3>{experience[item].name}</h3>
+            <p>{experience[item].span}</p>
+            <p>{experience[item].description}</p>
+            <p>{experience[item].worker}</p>
+          </section>
+        
       </Content>
     </Conteiner>
   );
