@@ -56,9 +56,12 @@ const Nav = styled.div`
   justify-content: space-around;
 
   @media (max-width: 1265px) {
-    display: flex;
-    flex-direction: column;
     align-items: start;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem 0;
   }
 `;
 
