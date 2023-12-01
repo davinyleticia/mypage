@@ -37,7 +37,7 @@ const Header: React.FC = () => {
   return (
     <>
       <Conteiner>
-        {/* <ParticlesContainer /> */}
+        <ParticlesContainer />
         <Content>
           <p>Olá, Eu sou</p>
           <Name>
