@@ -34,6 +34,8 @@ const Content = styled.div`
 const Img = styled(Image)`
           border-radius: 50%;
           border: solid 1px #000;
+          width: 300px;
+          height: 300px;
 `
 
 const Title = styled.h2`
