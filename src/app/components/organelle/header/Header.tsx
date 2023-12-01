@@ -11,6 +11,7 @@ const Conteiner = styled.div`
 const Content = styled.div`
 padding: 4rem 0;
 width: 31rem;
+z-index: 100;
   @media (max-width: 1265px) {
     width: 70%;
   }
