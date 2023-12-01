@@ -59,7 +59,7 @@ const Nav = styled.div`
     align-items: start;
     height: 100px;
     margin: auto;
-    overflow: hidden;
+    overflow-y: hidden;
     position: relative;
     margin: 1rem 0;
     // Animation
@@ -121,7 +121,7 @@ const WorkExperience: FC = () => {
   return (
     <Conteiner>
       <Title>
-        02. <span>Experiência Profissional</span>
+        02. <span>Experiência</span>
       </Title>
       <Nav>
         {experience.map((exp, index) => (
