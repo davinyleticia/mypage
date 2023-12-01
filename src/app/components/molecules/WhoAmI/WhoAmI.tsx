@@ -13,6 +13,9 @@ const Content = styled.div`
   section {
     max-width: 60rem;
     padding: 0 4rem;
+    @media (max-width: 1265px) {
+      padding: 0;
+  }
     p {
         margin: 1rem 0;
         font-size: 1.2rem;
