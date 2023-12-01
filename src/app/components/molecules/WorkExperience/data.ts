@@ -1,4 +1,13 @@
-export const experience = [{
+export interface ExperienceData {
+    name: string;
+    span: string;
+    description: string;
+    worker: string;
+    img: string; // Assuming img is a URL or file path
+  }
+
+
+export const experience : ExperienceData[] = [{
     name: "Reprograma | Professora",
     span: "São Paulo - Brasil | mai de 2023 - o momento",
     description: "A Reprograma é uma ONG que tem como missão empoderar mulheres, ministrando um curso intensivo.",
