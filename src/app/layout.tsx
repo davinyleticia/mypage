@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Footer from "./components/molecules/footer/Footer";
-import Header from "./components/molecules/header/Header";
+import Footer from "./components/organelle/footer/Footer";
+import Header from "./components/organelle/header/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "./lib/registry";
 
