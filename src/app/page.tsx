@@ -14,6 +14,8 @@ const Container = styled.div`
   width: 90%;
   display: flex;
   flex-direction: column;
+  background: #fff;
+  padding: 2rem 0;
 `;
 
 export default function Home() {
