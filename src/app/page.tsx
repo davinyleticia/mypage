@@ -17,7 +17,7 @@ const Container = styled.div`
   background: #fbf3f3;
   padding: 2rem 0;
   z-index: 50;
-  position: static;
+  position: relative;
 `;
 
 export default function Home() {
