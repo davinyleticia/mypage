@@ -18,19 +18,23 @@ const Container = styled.div`
   padding: 2rem 0;
   z-index: 50;
   position: relative;
+  @media (max-width: 1265px) {
+  width: 100%;
+  padding: 1rem;
+  }
 `;
 
 export default function Home() {
   return (
     <Container>
-      <WhoAmI />
-      <Contacts />
-      <CurriculumButton />
-      <WorkExperience />
-      <Skills />
-      <Education />
-      <Talks />
-      <Projects />
+        <WhoAmI />
+        <Contacts />
+        <CurriculumButton />
+        <WorkExperience />
+        <Skills />
+        <Education />
+        <Talks />
+        <Projects />
     </Container>
   );
 }
