@@ -16,7 +16,8 @@ const Container = styled.div`
   flex-direction: column;
   background: #fff;
   padding: 2rem 0;
-  z-index:50;
+  z-index: 50;
+  position: static;
 `;
 
 export default function Home() {
