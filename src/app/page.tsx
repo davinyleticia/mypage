@@ -16,6 +16,7 @@ const Container = styled.div`
   flex-direction: column;
   background: #fff;
   padding: 2rem 0;
+  z-index:50;
 `;
 
 export default function Home() {
