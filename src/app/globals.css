@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -21,7 +23,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: Zilla Slab, Arial, Helvetica, sans-serif;
+  font-family: 'Fira Sans Extra Condensed', Arial,Helvetica,sans-serif;
   background: #fcfcf7;
 }
 
