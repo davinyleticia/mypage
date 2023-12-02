@@ -14,7 +14,7 @@ const Container = styled.div`
   width: 90%;
   display: flex;
   flex-direction: column;
-  background: #fbf3f3;
+  background: #fcfcf7;
   padding: 2rem 0;
   z-index: 50;
   position: relative;
