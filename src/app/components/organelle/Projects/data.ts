@@ -19,10 +19,10 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    name: "Commands Views Page",
+    name: "Commands.ViewsPage.ink",
     description:
       "<ul><li>Site com comandos auto-explicativo</li> <li>git</li><li> bash</li></ul>",
-    link: "https://commands.views.page",
+    link: "https://commands.viewpage.ink",
     github: "",
     image: "/commandsviewspage.png",
   },
