@@ -22,7 +22,7 @@ export const projects: Project[] = [
     name: "Commands Views Page",
     description:
       "<ul><li>Site com comandos auto-explicativo</li> <li>git</li><li> bash</li></ul>",
-    link: "https://commands.viewpage.ink",
+    link: "https://github.com/davinyleticia/commands_nextjs",
     github: "",
     image: "/commandsviewspage.png",
   },
