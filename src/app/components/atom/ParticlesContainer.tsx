@@ -1,13 +1,15 @@
 "use client";
 import { Particles, IParticlesProps } from "react-tsparticles";
-import type { Engine } from "@tsparticles/engine";
+
 import { loadFull } from "tsparticles";
 import React, { useCallback } from "react";
 
 const ParticlesContainer: React.FC = () => {
-  const particlesInit = useCallback(async (engine: Engine) => {
+
+  const particlesInit = useCallback(async (engine: any) => {
+
     await loadFull(engine);
-  }, []);
+  },[]);
 
   const particlesLoaded = useCallback(async () => {
 
@@ -70,7 +72,6 @@ const particleOptions: IParticlesProps["options"] = {
       enable: true,
     },
     move: {
-      directions: "none",
       enable: true,
       outModes: {
         default: "bounce",
