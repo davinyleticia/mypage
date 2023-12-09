@@ -69,7 +69,9 @@ const Skills: React.FC = () => {
           </ul>
           <span>Back-end </span>
           <ul>
-            <li>Banco de dados</li>
+          <li>PHP</li>
+            <li>Python</li>
+            <li>Banco de dados Relacionais e Não Relacionais</li>
             <li>SQL</li>
             <li>Node.js</li>
             <li>Django</li>
@@ -79,8 +81,6 @@ const Skills: React.FC = () => {
         <section>
           <span>Outros</span>
           <ul>
-            <li>PHP</li>
-            <li>Python</li>
             <li>Shell Script</li>
             <li>Wordpress (CMS e desenvolvimento web)</li>
             <li>Experiência do usuário (UX)</li>
