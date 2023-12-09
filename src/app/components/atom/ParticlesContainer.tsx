@@ -1,6 +1,6 @@
 "use client";
 import { Particles, IParticlesProps } from "react-tsparticles";
-import { loadFull, IOptions } from "tsparticles";
+import { loadFull } from "tsparticles";
 import React, { useCallback } from "react";
 
 const ParticlesContainer: React.FC = () => {
@@ -9,7 +9,7 @@ const ParticlesContainer: React.FC = () => {
   }, []);
 
   const particlesLoaded = useCallback(async () => {
-    // Add your implementation for particlesLoaded if needed
+
   }, []);
 
   return (
@@ -23,8 +23,8 @@ const ParticlesContainer: React.FC = () => {
   );
 };
 
-// Define your particle options with types
-const particleOptions: IParticlesProps & IOptions = {
+
+const particleOptions: IParticlesProps["options"] = {
   fullScreen: { enable: true },
   background: {
     color: {
