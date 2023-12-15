@@ -13,18 +13,20 @@ const Conteiner = styled.div`
   position: abosolute;
   @media (max-width: 1265px) {
     width: 100%;
-    margin: 0;
   }
 `;
 
 const SectionMenu = styled.section`
 display: flex;
 flex-direction: row;
-width: 80rem;
-padding: 1rem;
+width: 100%;
+padding: 1rem 0 ;
 @media (max-width: 1265px) {
   width: 100%;
-  margin: 0;
+
+}
+a:hover{
+  color: #fff;
 }
 `;
 
@@ -33,7 +35,7 @@ function Menu() {
   return <Conteiner>
     <SectionMenu>
       <a href="https://dalevamusic.ynk.ink">dalevamusic.ynk.ink</a>
-      <Image src="./favicon.svg" width={30} height={30} alt='logo' />
+      <a href="./"><Image src="./favicon.svg" width={30} height={30} alt='logo' /></a>
       <a href="./en">EN</a>
       </SectionMenu>
   </Conteiner>;
