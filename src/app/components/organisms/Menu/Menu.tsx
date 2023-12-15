@@ -22,8 +22,6 @@ display: flex;
 flex-direction: row;
 width: 80rem;
 padding: 1rem;
-z-index: 100;
-position: abosolute;
 `;
 
 
