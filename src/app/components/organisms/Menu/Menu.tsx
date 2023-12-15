@@ -32,9 +32,9 @@ padding: 1rem;
 function Menu() {
   return <Conteiner>
     <SectionMenu>
-      <p>dalevamusic.ynk.ink</p>
+      <a href="https://dalevamusic.ynk.ink">dalevamusic.ynk.ink</a>
       <Image src="./favicon.svg" width={30} height={30} alt='logo' />
-      <p>EN</p>
+      <a href="./en">EN</a>
       </SectionMenu>
   </Conteiner>;
 }
