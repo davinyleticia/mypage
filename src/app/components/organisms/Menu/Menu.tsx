@@ -28,7 +28,7 @@ function Menu() {
   return <Conteiner>
     <SectionMenu>
       <p>dalevamusic.ynk.ink</p>
-      <Image src="./favicon.svg" width={30} height={30}/>
+      <Image src="./favicon.svg" width={30} height={30} alt='logo' />
       <p>EN</p>
       </SectionMenu>
   </Conteiner>;
