@@ -22,6 +22,10 @@ display: flex;
 flex-direction: row;
 width: 80rem;
 padding: 1rem;
+@media (max-width: 1265px) {
+  width: 100%;
+  margin: 0;
+}
 `;
 
 
