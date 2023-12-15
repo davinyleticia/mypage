@@ -10,6 +10,7 @@ const Conteiner = styled.div`
   width: 100%;
   height: 3.5rem;
   z-index: 100;
+  position: abosolute;
   @media (max-width: 1265px) {
     width: 100%;
     margin: 0;
@@ -22,6 +23,7 @@ flex-direction: row;
 width: 80rem;
 padding: 1rem;
 z-index: 100;
+position: abosolute;
 `;
 
 
