@@ -25,7 +25,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="./favicon.svg" />
       </Head>
       <StyledComponentsRegistry>
-        <Menu/>
+        {/* <Menu/> */}
         <Header />
         {children}
         <Footer />
