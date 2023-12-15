@@ -22,9 +22,9 @@ display: flex;
 flex-direction: row;
 width: 100%;
 padding: 1rem 0 ;
+z-index: 100;
 @media (max-width: 1265px) {
   width: 100%;
-
 }
 a:hover{
   color: #fff;
