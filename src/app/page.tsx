@@ -2,13 +2,13 @@
 
 import styled from "styled-components";
 import CurriculumButton from "./components/atom/CurriculumButton";
-import Education from "./components/organelle/Education/Education";
-import Contacts from "./components/organelle/Contacts/Contacts";
-import Skills from "./components/organelle/Skills/Skills";
-import WhoAmI from "./components/organelle/WhoAmI/WhoAmI";
-import WorkExperience from "./components/organelle/WorkExperience/WorkExperience";
-import Projects from "./components/organelle/Projects/Projects";
-import Talks from "./components/organelle/talks/Talks";
+import Education from "./components/organisms/Education/Education";
+import Contacts from "./components/organisms/Contacts/Contacts";
+import Skills from "./components/organisms/Skills/Skills";
+import WhoAmI from "./components/organisms/WhoAmI/WhoAmI";
+import WorkExperience from "./components/organisms/WorkExperience/WorkExperience";
+import Projects from "./components/organisms/Projects/Projects";
+import Talks from "./components/organisms/talks/Talks";
 
 const Container = styled.div`
   width: 90%;

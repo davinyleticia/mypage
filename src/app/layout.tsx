@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-import Footer from "./components/organelle/footer/Footer";
-import Header from "./components/organelle/header/Header";
+import Footer from "./components/organisms/footer/Footer";
+import Header from "./components/organisms/header/Header";
 import "./globals.css";
-import StyledComponentsRegistry from "./lib/registry";
+import StyledComponentsRegistry from "./libs/registry";
 
 export const metadata: Metadata = {
   title: "Daviny Letícia",
