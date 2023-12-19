@@ -7,7 +7,7 @@ import StyledComponentsRegistry from "./libs/registry";
 import Menu from "./components/organisms/Menu/Menu";
 
 export const metadata: Metadata = {
-  title: "Daviny Letícia",
+  title: "Daviny Letícia - Home Page",
   description: "My professional website",
 };
 
