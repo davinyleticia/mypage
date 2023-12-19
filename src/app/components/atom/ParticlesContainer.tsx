@@ -59,7 +59,7 @@ const particleOptions: IParticlesProps["options"] = {
   },
   particles: {
     color: {
-      value: "#aaa1aa",
+      value: "#000",
     },
     links: {
       color: "#aaa111",
@@ -83,7 +83,7 @@ const particleOptions: IParticlesProps["options"] = {
     number: {
       density: {
         enable: true,
-        area: 1000,
+        area: 500,
       },
       value: 80,
     },
