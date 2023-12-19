@@ -11,7 +11,7 @@ import Projects from "./components/organisms/Projects/Projects";
 import Talks from "./components/organisms/talks/Talks";
 
 const Container = styled.div`
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background: #fcfcf7;
