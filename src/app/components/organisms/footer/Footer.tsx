@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
         </BugText>
         <Note>
           <p>
-            Feito com amor por Daviny Letícia 2023 @{" "}
+            Feito com amor por Daviny Letícia 2020 - 2024 @{" "}
             <a href="https://github.com/davinyleticia/mypage">Github</a>
           </p>
         </Note>
