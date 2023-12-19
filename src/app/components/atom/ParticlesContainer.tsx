@@ -49,7 +49,7 @@ const particleOptions: IParticlesProps["options"] = {
     },
     modes: {
       push: {
-        quantity: 70000,
+        quantity: 700000,
       },
       repulse: {
         distance: 20,
