@@ -59,7 +59,7 @@ const particleOptions: IParticlesProps["options"] = {
   },
   particles: {
     color: {
-      value: "#000f19",
+      value: "#222a99",
     },
     links: {
       color: "#003111",
