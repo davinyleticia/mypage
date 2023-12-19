@@ -58,6 +58,8 @@ const BugText = styled.div`
 
 const Note = styled.div`
   background: #8e7c93;
+  z-index: 50;
+  position: relative;
   P {
     color: #fff;
     background: #8e7c93;
