@@ -15,10 +15,11 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   background: #fcfcf7;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   z-index: 50;
   position: relative;
-  @media (max-width: 1344px) {
+
+  @media (max-width: 1265px) {
   padding: 1rem;
   }
 `;
