@@ -19,7 +19,7 @@ const Container = styled.div`
   z-index: 50;
   position: relative;
   @media (max-width: 1265px) {
-  width: 100%;
+  width: 99%;
   padding: 1rem;
   }
 `;
