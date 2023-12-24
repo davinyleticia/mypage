@@ -18,8 +18,7 @@ const Container = styled.div`
   padding: 2rem 0;
   z-index: 50;
   position: relative;
-  @media (max-width: 1265px) {
-  width: 99%;
+  @media (max-width: 1344px) {
   padding: 1rem;
   }
 `;
