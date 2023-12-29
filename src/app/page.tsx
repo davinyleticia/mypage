@@ -29,7 +29,7 @@ export default function Home() {
     <Container>
         <WhoAmI />
         <Contacts />
-        <CurriculumButton />
+        {/* <CurriculumButton /> */}
         <WorkExperience />
         <Skills />
         <Education />

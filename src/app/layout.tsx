@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Head from "next/head";
+import Menu from "./components/organisms/Menu/Menu";
 import Footer from "./components/organisms/footer/Footer";
 import Header from "./components/organisms/header/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "./libs/registry";
-import Menu from "./components/organisms/Menu/Menu";
 
 export const metadata: Metadata = {
   title: "Daviny Letícia - Home Page",
@@ -25,7 +25,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="./favicon.svg" />
       </Head>
       <StyledComponentsRegistry>
-        {/* <Menu/> */}
+        <Menu/>
         <Header />
         {children}
         <Footer />
