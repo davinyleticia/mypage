@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 import ParticlesContainer from "../../atom/ParticlesContainer";
 const Conteiner = styled.div`
-  height: 30rem;
+  height: 39rem;
   z-index: 100;
 `;
 
