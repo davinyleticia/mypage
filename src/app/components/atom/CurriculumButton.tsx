@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Conteiner = styled.div`
   width: 14rem;
-  margin-top: 4rem;
+  margin-top: 7rem;
   z-index: 1000;`
 
 const Link = styled.a`

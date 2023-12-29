@@ -63,7 +63,7 @@ const Header: React.FC = () => {
           <p>Software Engineer</p>
           
         </Content>
-<About><AboutButton/></About>
+<AboutButton/>
       </Conteiner>
     </>
   );
