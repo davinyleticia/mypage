@@ -2,15 +2,22 @@
 
 import React from "react";
 import styled from "styled-components";
+import AboutButton from "../../atom/CurriculumButton";
 import ParticlesContainer from "../../atom/ParticlesContainer";
 const Conteiner = styled.div`
-  height: 39rem;
   z-index: 100;
+  height: 100vh;
+p{
+  text-align: center;
+  bottom: 0;
+  position: static;
+}
 `;
 
 const Content = styled.div`
-padding: 4rem 0;
+padding: 11rem 0;
 width: 31rem;
+
 
   @media (max-width: 1265px) {
     width: 70%;
@@ -33,6 +40,15 @@ const Name = styled.div`
     padding: 2rem 1rem;
   }
 `;
+const About = styled.p`
+display; flex;
+align-items: flex-end;
+justify-content: center;
+text-aling: center;
+height: 3rem;
+botton: 0;
+
+`;
 
 const Header: React.FC = () => {
   return (
@@ -45,7 +61,9 @@ const Header: React.FC = () => {
             <h1>Daviny Letícia</h1>
           </Name>
           <p>Software Engineer</p>
+          
         </Content>
+<About><AboutButton/></About>
       </Conteiner>
     </>
   );

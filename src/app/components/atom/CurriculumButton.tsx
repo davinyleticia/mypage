@@ -4,14 +4,14 @@ import styled from "styled-components";
 
 const Conteiner = styled.div`
   width: 14rem;
-  margin-top: 4rem`;
+  margin-top: 4rem;
+  z-index: 1000;`
 
 const Link = styled.a`
- margin: 1rem 0;
   display: flex;
   text-align: center;
   align-items: center;
-  width: 14rem;
+  width: 8rem;
   color: #000;
   border: solid 1px #ea370f;
   padding: 1rem;
@@ -21,15 +21,15 @@ const Link = styled.a`
   }
 `;
 
-const CurriculumButton: React.FC = () => {
+const AboutButton: React.FC = () => {
   return (
     <Conteiner>
-      <Link href="/Daviny_Leticia_Vidal_CV.pdf">
+      <Link href="#Quem-sou">
         <RxActivityLog />
-        <p>ver o curriculo em PDF</p>
+        <p>Ver Mais</p>
       </Link>
     </Conteiner>
   );
 };
 
-export default CurriculumButton;
+export default AboutButton;

@@ -55,7 +55,7 @@ const WhoAmI: React.FC = () => {
   return (
     <Conteiner>
       <Title>
-        01. <span>Quem sou?</span>
+        01. <span id='Quem-sou'>Quem sou?</span>
       </Title>
       <Content>
         <Img
