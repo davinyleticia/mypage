@@ -34,6 +34,13 @@ p{
   margin: 0 2rem;
 }
 `
+
+const Date = styled.div`
+@media (max-width: 1265px) {
+ display: none;
+  }
+`
+
 // const Button = styled.button`
 //   outline: none;
 //     border: none;
@@ -67,7 +74,7 @@ function Menu() {
   const dataAtual = moment().format('DD / MM / YYYY')
 
   return <Conteiner>
-    <SectionMenu>      <p>Hoje é: {dataAtual}</p>
+    <SectionMenu>      <Date>Hoje é: {dataAtual}</Date>
       {/* <a href="https://dalevasound.ynk.ink">dalevasound.ynk.ink</a> */}
       <a href="./"><Image src="./favicon.svg" width={30} height={30} alt='logo' /></a>
       <p><a href="./Daviny_Leticia_Vidal_CV.pdf">Download CV</a></p>

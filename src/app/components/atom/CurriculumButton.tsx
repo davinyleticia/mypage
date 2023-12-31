@@ -8,6 +8,9 @@ const Conteiner = styled.div`
     bottom: 100px;
     z-index: 1000;
     left: 45%;
+    @media (max-width: 1265px) {
+    left: 67px;
+    }
 `
 
 const Link = styled.a`
