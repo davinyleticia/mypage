@@ -53,9 +53,9 @@ const Title = styled.h2`
 
 const WhoAmI: React.FC = () => {
   return (
-    <Conteiner>
+    <Conteiner id='Quem-sou'>
       <Title>
-        01. <span id='Quem-sou'>Quem sou?</span>
+        01. <span>Quem sou?</span>
       </Title>
       <Content>
         <Img
