@@ -6,6 +6,7 @@ import Image from "next/image";
 
 const Conteiner = styled.div`  
 z-index: 100;
+padding: 1rem 0;
 `;
 
 const Content = styled.div`
