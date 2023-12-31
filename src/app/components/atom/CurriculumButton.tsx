@@ -5,9 +5,9 @@ import styled from "styled-components";
 const Conteiner = styled.div`
     width: 14rem;
     position: absolute;
-    bottom: 44px;
+    bottom: 100px;
     z-index: 1000;
-    left: 40%;
+    left: 45%;
 `
 
 const Link = styled.a`
