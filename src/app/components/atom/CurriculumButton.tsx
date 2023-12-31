@@ -28,7 +28,7 @@ const Link = styled.a`
 const AboutButton: React.FC = () => {
   return (
     <Conteiner>
-      <Link href="#Quem-sou">
+      <Link href="#quem-sou">
         <RxActivityLog />
         <p>Ver Mais</p>
       </Link>
