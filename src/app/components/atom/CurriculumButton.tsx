@@ -7,7 +7,7 @@ const Conteiner = styled.div`
     position: absolute;
     bottom: 44px;
     z-index: 1000;
-    left: 50%;
+    left: 40%;
 `
 
 const Link = styled.a`
