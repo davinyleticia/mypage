@@ -35,7 +35,7 @@ p{
 }
 `
 
-const Date = styled.div`
+const Date = styled.p`
 @media (max-width: 1265px) {
  display: none;
   }
