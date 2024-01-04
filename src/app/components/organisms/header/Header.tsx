@@ -17,7 +17,8 @@ p{
 const Content = styled.div`
 padding: 11rem 0;
 width: 31rem;
-
+background: #fff;
+border: solid 1px #000;
 
   @media (max-width: 1265px) {
     width: 70%;
@@ -61,9 +62,9 @@ const Header: React.FC = () => {
             <h1>Daviny Letícia</h1>
           </Name>
           <p>Software Engineer</p>
-          
+
         </Content>
-<AboutButton/>
+        <AboutButton />
       </Conteiner>
     </>
   );
