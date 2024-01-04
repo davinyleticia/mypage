@@ -17,8 +17,7 @@ const Link = styled.a`
   align-items: center;
   width: 8rem;
   color: #000;
-  background: #f1802d;
-  border: solid 1px #f1802d;
+  background: #fff;
   padding: 1rem;
   border-radius: 5%; /* Add the missing semicolon here */
   :hover {
