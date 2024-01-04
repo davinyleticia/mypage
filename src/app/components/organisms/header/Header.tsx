@@ -25,6 +25,7 @@ width: 31rem;
   p{
     font-size: 1.5rem;
     padding: 1rem 0;
+    color: #fff;
   },
 
 `;
@@ -34,9 +35,10 @@ const Name = styled.div`
     font-family: Zilla Slab, Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
-    border: 2px dashed #000;
+    border: 2px dashed #add;
     text-align: center;
     padding: 2rem 1rem;
+    color: #ff0;
   }
 `;
 const About = styled.p`
