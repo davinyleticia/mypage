@@ -62,7 +62,7 @@ const particleOptions: IParticlesProps["options"] = {
       value: "#000",
     },
     links: {
-      color: "#aa1ff2",
+      color: "#aaaaf2",
       distance: 100,
       enable: true,
       opacity: 0.5,
