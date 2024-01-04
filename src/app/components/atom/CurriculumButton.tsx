@@ -1,26 +1,26 @@
 import React from "react";
-import { RxActivityLog } from "react-icons/rx";
 import styled from "styled-components";
 
 const Conteiner = styled.div`
+    display: flex;
     position: absolute;
     bottom: 100px;
     z-index: 1000;
-    justify-content: center;
-    align-items: center;
     width: 100%;
+    p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3rem; /* Add the missing semicolon here */
+      background: #fff;
+      border: solid 1px #fff;
+      width: 9rem;
+      padding: 1rem;
+    }
 `
 
 const Link = styled.a`
-  display: flex;
-  text-align: center;
-  align-items: center;
-  width: 8rem;
   color: #000;
-  background: #fff;
-  border: solid 1px #000;
-  padding: 1rem;
-  border-radius: 5%; /* Add the missing semicolon here */
   :hover {
     text-decoration: underline; /* Fix the typo here (line instead of underline) */
   }
@@ -30,7 +30,6 @@ const AboutButton: React.FC = () => {
   return (
     <Conteiner>
       <Link href="#quem-sou">
-        <RxActivityLog />
         <p>Ver Mais</p>
       </Link>
     </Conteiner>

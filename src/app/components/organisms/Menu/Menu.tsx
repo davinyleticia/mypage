@@ -6,7 +6,7 @@ import moment from 'moment';
 
 const Conteiner = styled.div`
   position: absolute;
-  background: rgb(142, 124, 147)
+  background: #8e7c93;
   color: #000;
   width: 100%;
   height: 3.5rem;  
