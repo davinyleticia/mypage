@@ -53,7 +53,7 @@ const particleOptions: IParticlesProps["options"] = {
       },
       repulse: {
         distance: 20,
-        duration: 0.4,
+        duration: 5,
       },
     },
   },
