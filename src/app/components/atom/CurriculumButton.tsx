@@ -3,14 +3,12 @@ import { RxActivityLog } from "react-icons/rx";
 import styled from "styled-components";
 
 const Conteiner = styled.div`
-    width: 14rem;
     position: absolute;
     bottom: 100px;
     z-index: 1000;
-    left: 45%;
-    @media (max-width: 1265px) {
-    left: 67px;
-    }
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 `
 
 const Link = styled.a`
