@@ -8,6 +8,9 @@ const Conteiner = styled.div`
 z-index: 100;
 padding: 1rem 0;
 width: 80rem;
+@media (max-width: 1265px) {
+  width: auto;
+}
 `;
 
 const Content = styled.div`
