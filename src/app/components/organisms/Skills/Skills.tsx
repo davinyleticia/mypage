@@ -66,6 +66,8 @@ const Skills: React.FC = () => {
             <li>Redux</li>
             <li>styled components</li>
             <li>Custom Hooks</li> <li>Nextjs</li>
+            <li>React</li>
+            <li>Vue</li>
           </ul>
           <span>Back-end </span>
           <ul>
