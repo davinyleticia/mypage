@@ -1,5 +1,5 @@
 import React, { FC, useState } from "react";
-import { MdOutlineArrowRight } from "react-icons/md";
+import { MdOutlineArrowRight, MdArrowDropDown } from "react-icons/md";
 import styled from "styled-components";
 import Image from "next/image";
 import { experience } from "./data";
@@ -127,7 +127,7 @@ const WorkExperience: FC = () => {
       <Nav>
         {experience.map((exp, index) => (
           <Link key={index} onClick={() => setItem(index)}>
-            <MdOutlineArrowRight />
+            {experience[item].id === exp.id ? <MdArrowDropDown/> : <MdOutlineArrowRight />}
             <p>{exp.company}</p>
           </Link>
         ))}

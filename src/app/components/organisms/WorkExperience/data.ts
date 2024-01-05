@@ -1,4 +1,5 @@
 export interface ExperienceData {
+    id: number;
     company: string;
     name: string;
     span: string;
@@ -9,6 +10,7 @@ export interface ExperienceData {
 
 
 export const experience : ExperienceData[] = [{
+    id: 1,
     company: "Reprograma",
     name: "Reprograma | Professora",
     span: "Online - São Paulo | mai de 2023 - o momento (Freelance)",
@@ -16,6 +18,7 @@ export const experience : ExperienceData[] = [{
     worker:"Administrei cursos de front-end, workshops, e cursos POO em Python",
     img:"/reprograma-logo.0bc8e5eb.png"
 },{
+    id: 2,
     company: "Proz",
     name: "Proz | Front-end",
     span: "Online - São Paulo | jul de 2023 - ago 2023",
@@ -24,6 +27,7 @@ export const experience : ExperienceData[] = [{
     img:"/logotipo_proz.svg"
 },
 {
+    id: 3,
     company: "DIO",
     name: "DIO.me | Front-end e Django",
     span: "Online - Araraquara | abri de 2021 - abri 2023",
@@ -32,6 +36,7 @@ export const experience : ExperienceData[] = [{
     img:"/logo-dio.svg"
 },
 {
+    id: 4,
     company: "Codivas",
     name: "Codivas | Front-end",
     span: "Online - Brasil | fev de 2021 - mar 2021 (Freelance)",
@@ -40,6 +45,7 @@ export const experience : ExperienceData[] = [{
     img:"/coletivo_codivas_logo.jpeg"
 },
 {
+    id: 5,
     company: "RHS",
     name: "RHS | Back-end PHP",
     span: "Online - São Paulo | ago de 2020 - jan 2021",
@@ -48,6 +54,7 @@ export const experience : ExperienceData[] = [{
     img:"/rhs_licitaes_logo.jpeg"
 },
 {
+    id: 6,
     company: "Braz Cubas",
     name: "Braz Cubas | Técnica de Laboratório",
     span: "Presencial - Mogi das Cruzes | Fev de 2015 - ago 2020",
