@@ -95,12 +95,12 @@ const Contacts: React.FC = () => {
           <p>Notações</p>
         </Link>
         <Link
-          href="mailto:daviny@vidal.dev.br?subject=Olá!&body=Oi!"
+          href="mailto:daviny.leticia@vidal.dev.br?subject=Olá!&body=Oi!"
           target="
     _top"
         >
           <MdAlternateEmail />
-          <p>daviny@vidal.dev.br</p>
+          <p>daviny.leticia@vidal.dev.br</p>
         </Link>
       </Nav>
     </Conteiner>
