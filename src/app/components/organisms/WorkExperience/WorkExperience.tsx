@@ -101,7 +101,7 @@ const Img = styled(Image)`
 `;
 
 const Title = styled.h2`
-  margin-top: 7rem;
+  margin-top: 3rem;
 
   span {
     background: #fff357;
