@@ -1,5 +1,5 @@
 import React, { FC, useState } from "react";
-import { MdOutlineArrowRight, MdArrowDropDown } from "react-icons/md";
+import { MdOutlineArrowRight, MdArrowDropDown, } from "react-icons/md";
 import styled from "styled-components";
 import Image from "next/image";
 import { experience } from "./data";
@@ -113,6 +113,16 @@ const Title = styled.h2`
   margin-bottom: 2rem;
 `;
 
+const ArrowDown = styled(MdArrowDropDown)`
+width: 1.8rem;
+height: 1.8rem;
+`
+
+const MdArrowRight = styled(MdOutlineArrowRight)`
+width: 1.8rem;
+height: 1.8rem;
+`
+
 const WorkExperience: FC = () => {
   const [item, setItem] = useState<number>(0);
 
@@ -127,7 +137,7 @@ const WorkExperience: FC = () => {
       <Nav>
         {experience.map((exp, index) => (
           <Link key={index} onClick={() => setItem(index)}>
-            {experience[item].id === exp.id ? <MdArrowDropDown/> : <MdOutlineArrowRight />}
+            {experience[item].id === exp.id ? <ArrowDown/> : <MdArrowRight />}
             <p>{exp.company}</p>
           </Link>
         ))}
