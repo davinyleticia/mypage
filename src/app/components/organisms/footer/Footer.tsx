@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
         <BugText>
           <h3>Sobre este site</h3>
           <div>
-            <p>Construído com NextJS. </p>
+            <p>Construído com NextJS -  Deploy Vercel. </p>
             <p>
               Se você encontrar um bug, registre um{" "}
               <a href="https://github.com/davinyleticia/mypage/issues">issue</a>
