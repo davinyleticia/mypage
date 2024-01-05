@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
         </BugText>
         <Note>
           <p>
-            Feito com {"<3"} por Daviny Letícia - 2020 - 2024 @{" "}
+            Feito com {"<3"} por Daviny Letícia 2020 - 2024 @{" "}
             <a href="https://github.com/davinyleticia/mypage">Github</a>
           </p>
         </Note>
