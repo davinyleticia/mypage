@@ -58,7 +58,7 @@ botton: 0;
 
 const Header: React.FC = () => {
   return (
-    <><Menu/>
+    <>
       <Conteiner>
         <ParticlesContainer />
         <Content>
