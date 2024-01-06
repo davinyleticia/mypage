@@ -4,9 +4,12 @@ import React from "react";
 import styled from "styled-components";
 import AboutButton from "../../atom/CurriculumButton";
 import ParticlesContainer from "../../atom/ParticlesContainer";
+import Menu from "../Menu/Menu";
 const Conteiner = styled.div`
-  z-index: 100;
+position: relative;
+z-index: 1000;
   height: 100vh;
+  background: rgb(91, 78, 95);
 p{
   text-align: center;
   bottom: 0;
@@ -15,6 +18,7 @@ p{
 `;
 
 const Content = styled.div`
+
 padding: 11rem 0;
 width: 31rem;
 
@@ -54,7 +58,7 @@ botton: 0;
 
 const Header: React.FC = () => {
   return (
-    <>
+    <><Menu/>
       <Conteiner>
         <ParticlesContainer />
         <Content>

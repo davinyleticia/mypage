@@ -1,15 +1,13 @@
 "use client";
 
 import styled from "styled-components";
-import CurriculumButton from "./components/atom/CurriculumButton";
-import Education from "./components/organisms/Education/Education";
 import Contacts from "./components/organisms/Contacts/Contacts";
+import Education from "./components/organisms/Education/Education";
+import Projects from "./components/organisms/Projects/Projects";
 import Skills from "./components/organisms/Skills/Skills";
 import WhoAmI from "./components/organisms/WhoAmI/WhoAmI";
 import WorkExperience from "./components/organisms/WorkExperience/WorkExperience";
-import Projects from "./components/organisms/Projects/Projects";
 import Talks from "./components/organisms/talks/Talks";
-import Menu from "./components/organisms/Menu/Menu";
 
 const Container = styled.div`
   width: 100%;
@@ -28,7 +26,6 @@ const Container = styled.div`
 export default function Home() {
   return (
     <Container>
-      <Menu />
       <WhoAmI />
       <Contacts />
       {/* <CurriculumButton /> */}

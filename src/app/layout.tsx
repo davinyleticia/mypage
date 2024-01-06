@@ -4,6 +4,7 @@ import Footer from "./components/organisms/footer/Footer";
 import Header from "./components/organisms/header/Header";
 import "./globals.css";
 import StyledComponentsRegistry from "./libs/registry";
+import Menu from "./components/organisms/Menu/Menu";
 
 export const metadata: Metadata = {
   title: "Daviny Letícia - Home Page",
@@ -23,7 +24,7 @@ export default function RootLayout({
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml" />
       </Head>
-      <StyledComponentsRegistry>
+      <StyledComponentsRegistry>  
         <Header />
         {children}
         <Footer />

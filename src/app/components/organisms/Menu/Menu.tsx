@@ -5,12 +5,14 @@ import styled from "styled-components";
 import moment from 'moment';
 
 const Conteiner = styled.div`
-  position: absolute;
+display: flex;
+z-index: 100;
+
+  position: fixed;
   background: #8e7c93;
   color: #000;
   width: 100%;
   height: 3.5rem;  
-  z-index: 100;
 
   @media (max-width: 1265px) {
     width: 100%;

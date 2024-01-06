@@ -3,10 +3,11 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
+import Menu from "../Menu/Menu";
 
 const Conteiner = styled.div`  
 z-index: 100;
-padding: 1rem 0;
+padding: 3rem 0;
 width: 80rem;
 @media (max-width: 1265px) {
   width: auto;
@@ -59,6 +60,7 @@ const Title = styled.h2`
 const WhoAmI: React.FC = () => {
   return (
     <Conteiner id='quem-sou'>
+      <Menu/>
       <Title>
         01. <span>Quem sou?</span>
       </Title>
