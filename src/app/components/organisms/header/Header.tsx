@@ -4,7 +4,6 @@ import React from "react";
 import styled from "styled-components";
 import AboutButton from "../../atom/CurriculumButton";
 import ParticlesContainer from "../../atom/ParticlesContainer";
-import Menu from "../Menu/Menu";
 const Conteiner = styled.div`
 position: relative;
 z-index: 10000;
@@ -67,7 +66,6 @@ const Header: React.FC = () => {
             <h1>Daviny Letícia</h1>
           </Name>
           <p>Software Engineer</p>
-
         </Content>
         <AboutButton />
       </Conteiner>

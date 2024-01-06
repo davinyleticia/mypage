@@ -60,7 +60,6 @@ const Title = styled.h2`
 const WhoAmI: React.FC = () => {
   return (
     <Conteiner id='quem-sou'>
-      <Menu/>
       <Title>
         01. <span>Quem sou?</span>
       </Title>

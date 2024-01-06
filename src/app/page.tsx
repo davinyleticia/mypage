@@ -8,6 +8,7 @@ import Skills from "./components/organisms/Skills/Skills";
 import WhoAmI from "./components/organisms/WhoAmI/WhoAmI";
 import WorkExperience from "./components/organisms/WorkExperience/WorkExperience";
 import Talks from "./components/organisms/talks/Talks";
+import Menu from "./components/organisms/Menu/Menu";
 
 const Container = styled.div`
   width: 100%;
@@ -23,14 +24,12 @@ const Container = styled.div`
   }
 `;
 
-const Content = styled.div`
-background: #fcfcf7;
-`
+
 
 export default function Home() {
   return (
     <Container>
-      <Content>   
+      <Menu/>
       <WhoAmI />
       <Contacts />
       {/* <CurriculumButton /> */}
@@ -39,7 +38,6 @@ export default function Home() {
       <Education />
       <Talks />
       <Projects />
-      </Content>
     </Container>
   );
 }
