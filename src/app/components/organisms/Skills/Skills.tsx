@@ -4,7 +4,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Conteiner = styled.div`
-  margin-top: 5rem;
+padding: 3rem 0;
+  padding: 5rem 0;
   @media (max-width: 1265px) {
      margin: 5rem 0 0 0;
   }
@@ -51,7 +52,7 @@ const Title = styled.h2`
 
 const Skills: React.FC = () => {
   return (
-    <Conteiner>
+    <Conteiner id="Habilidades">
       <Title>
         03. <span>Habilidades</span>
       </Title>
@@ -70,7 +71,7 @@ const Skills: React.FC = () => {
           </ul>
           <span>Back-end </span>
           <ul>
-          <li>PHP</li>
+            <li>PHP</li>
             <li>Python</li>
             <li>Banco de dados Relacionais e Não Relacionais</li>
             <li>SQL</li>

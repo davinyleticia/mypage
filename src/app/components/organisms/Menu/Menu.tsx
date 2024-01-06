@@ -33,6 +33,9 @@ z-index: 100;
 a{
   padding: 0 1rem;
   margin: 0;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 p{
   margin: 0  1rem ;
@@ -50,9 +53,18 @@ function Menu() {
   const dataAtual = moment().format('DD / MM / YYYY')
 
   return <Conteiner>
-    <SectionMenu>      <Date>Hoje é: {dataAtual}</Date>
-      <a href="./"><Image src="./favicon.svg" width={30} height={30} alt='logo' /></a>
-      <p><a href="./Daviny_Leticia_Vidal_CV.pdf">Download CV</a></p>
+    <SectionMenu>
+      {/* <Date>Hoje é: {dataAtual}</Date> */}
+      
+    <a href="./"><Image src="./favicon.svg" width={30} height={30} alt='logo' /></a>
+        <a href="#quem-sou">Quem sou?</a>
+        <a href="#Experiência">Experiência</a>
+        <a href="#Habilidades">Habilidades</a>
+        <a href="#Educação">Educação</a>
+        <a href="#Projetos">Projetos</a>
+      
+
+      <a href="./Daviny_Leticia_Vidal_CV.pdf">Download CV</a>
 
     </SectionMenu>
   </Conteiner>;

@@ -5,7 +5,7 @@ import { projects, Project } from "./data";
 
 const Container = styled.div`
   margin-top: 5rem;
-
+  padding: 5rem 0;
   @media (max-width: 1265px) {
     margin: 0;
     width: 100%;

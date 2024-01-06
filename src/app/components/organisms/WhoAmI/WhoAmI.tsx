@@ -7,7 +7,7 @@ import Menu from "../Menu/Menu";
 
 const Conteiner = styled.div`  
 z-index: 100;
-padding: 3rem 0;
+padding: 5rem 0;
 width: 80rem;
 @media (max-width: 1265px) {
   width: auto;

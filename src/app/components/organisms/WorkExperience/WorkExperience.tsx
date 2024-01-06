@@ -6,7 +6,7 @@ import { experience } from "./data";
 
 const Conteiner = styled.div`
   width: 80rem;
-
+  padding: 2rem 0;
   @media (max-width: 1265px) {
     width: 100%;
   }
@@ -129,7 +129,7 @@ const WorkExperience: FC = () => {
   console.log(item);
 
   return (
-    <Conteiner>
+    <Conteiner id='Experiência'>
       <Title>
         02. <span>Experiência</span>
       </Title>

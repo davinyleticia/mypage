@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 const Conteiner = styled.div`
   margin-top: 5rem;
+  padding: 3rem 0;
   @media (max-width: 1265px) {
      margin: 0;
      width: 100%;
@@ -44,7 +45,7 @@ const Title = styled.h2`
 
 const Education: React.FC = () => {
   return (
-    <Conteiner>
+    <Conteiner id="Educação">
       <Content>
         <section>
           <Title>
