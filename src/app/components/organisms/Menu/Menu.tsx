@@ -6,7 +6,7 @@ import moment from 'moment';
 
 const Conteiner = styled.div`
 display: flex;
-z-index: 1001;
+z-index: 20000;
   position: fixed;
   background: #8e7c93;
   color: #000;
