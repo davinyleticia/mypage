@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-import Menu from "./components/organisms/Menu/Menu";
 import Footer from "./components/organisms/footer/Footer";
 import Header from "./components/organisms/header/Header";
 import "./globals.css";
@@ -25,7 +24,6 @@ export default function RootLayout({
         <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml" />
       </Head>
       <StyledComponentsRegistry>
-        <Menu/>
         <Header />
         {children}
         <Footer />
