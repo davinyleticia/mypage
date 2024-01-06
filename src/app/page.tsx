@@ -23,9 +23,14 @@ const Container = styled.div`
   }
 `;
 
+const Content = styled.div`
+background: #fcfcf7;
+`
+
 export default function Home() {
   return (
     <Container>
+      <Content>   
       <WhoAmI />
       <Contacts />
       {/* <CurriculumButton /> */}
@@ -34,6 +39,7 @@ export default function Home() {
       <Education />
       <Talks />
       <Projects />
+      </Content>
     </Container>
   );
 }
