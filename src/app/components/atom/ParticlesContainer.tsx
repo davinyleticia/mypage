@@ -1,10 +1,15 @@
 "use client";
-import { Particles, IParticlesProps } from "react-tsparticles";
-
-import { loadFull } from "tsparticles";
+import { IParticlesProps, Particles } from "react-tsparticles";
 import React, { useCallback } from "react";
+import styled from "styled-components";
+import { loadFull } from "tsparticles";
+
+const ParticlesJs = styled(Particles)`
+z-index: 10;
+`
 
 const ParticlesContainer: React.FC = () => {
+
 
   const particlesInit = useCallback(async (engine: any) => {
 
@@ -16,7 +21,7 @@ const ParticlesContainer: React.FC = () => {
   }, []);
 
   return (
-    <Particles
+    <ParticlesJs
       className="w-full h-full absolute translate-z-0"
       id="tsparticles"
       init={particlesInit}
