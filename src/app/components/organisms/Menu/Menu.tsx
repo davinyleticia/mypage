@@ -46,6 +46,12 @@ const Date = styled.p`
   }
 `
 
+const SectionPC = styled.section`
+@media (max-width: 1265px) {
+  display: none;
+   }
+`
+
 function Menu() {
 
   const dataAtual = moment().format('DD / MM / YYYY')
@@ -55,11 +61,11 @@ function Menu() {
       {/* <Date>Hoje é: {dataAtual}</Date> */}
       
     <a href="./"><Image src="./favicon.svg" width={30} height={30} alt='logo' /></a>
-        <a href="#quem-sou">Quem sou?</a>
+        <SectionPC><a href="#quem-sou">Quem sou?</a>
         <a href="#Experiência">Experiência</a>
         <a href="#Habilidades">Habilidades</a>
         <a href="#Educação">Educação</a>
-        <a href="#Projetos">Projetos</a>
+        <a href="#Projetos">Projetos</a></SectionPC>
       <a href="./Daviny_Leticia_Vidal_CV.pdf">Download CV</a>
     </SectionMenu>
     <hr></hr>
