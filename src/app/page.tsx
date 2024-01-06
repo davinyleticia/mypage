@@ -9,6 +9,7 @@ import WhoAmI from "./components/organisms/WhoAmI/WhoAmI";
 import WorkExperience from "./components/organisms/WorkExperience/WorkExperience";
 import Projects from "./components/organisms/Projects/Projects";
 import Talks from "./components/organisms/talks/Talks";
+import Menu from "./components/organisms/Menu/Menu";
 
 const Container = styled.div`
   width: 100%;
@@ -27,14 +28,15 @@ const Container = styled.div`
 export default function Home() {
   return (
     <Container>
-        <WhoAmI />
-        <Contacts />
-        {/* <CurriculumButton /> */}
-        <WorkExperience />
-        <Skills />
-        <Education />
-        <Talks />
-        <Projects />
+      <Menu />
+      <WhoAmI />
+      <Contacts />
+      {/* <CurriculumButton /> */}
+      <WorkExperience />
+      <Skills />
+      <Education />
+      <Talks />
+      <Projects />
     </Container>
   );
 }
