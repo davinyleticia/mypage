@@ -7,7 +7,7 @@ import ParticlesContainer from "../../atom/ParticlesContainer";
 import Menu from "../Menu/Menu";
 const Conteiner = styled.div`
 position: relative;
-z-index: 1000;
+z-index: 10000;
   height: 100vh;
   background: rgb(91, 78, 95);
 p{
