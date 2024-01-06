@@ -36,7 +36,7 @@ const Link = styled.a`
 const AboutButton: React.FC = () => {
   return (
     <Conteiner>
-      <Link href="#quem-sou">
+      <Link href="#Menu">
         <p>Ver Mais</p>
       </Link>
     </Conteiner>
